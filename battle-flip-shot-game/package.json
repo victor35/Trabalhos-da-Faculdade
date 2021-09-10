@@ -8,8 +8,8 @@
     "primeicons": "^4.0.0",
     "primereact": "^5.0.1"
   },
-  "devDependencies": {},
   "scripts": {
+    "start":"http-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
