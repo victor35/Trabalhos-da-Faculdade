@@ -1,0 +1,67 @@
+GET http://localhost:4000 HTTP/1.1
+
+#######################
+
+// requisições produtos
+
+GET http://localhost:4000/produtos HTTP/1.1
+
+#######################
+
+DELETE  http://localhost:4000/produtos/604a981b25626523964ef8c4 HTTP/1.1
+
+#################
+
+PUT  /produtos/604aa1a0944c7aaf8156b2ca HTTP/1.1
+Host: localhost:4000
+Content-Type: application/json
+Content-Length: 4
+
+{   
+    "categoria":"arte", 
+    "nome":"algorithms", 
+    "descricao":"livro",
+    "preco":74.15
+}
+
+##############################
+
+POST  /produtos HTTP/1.1
+Host: localhost:4000
+Content-Type: application/json
+
+{   
+    "categoria":"arte", 
+    "nome":"DVD COBRA KAI TODAS AS TEMPORADAS", 
+    "descricao":"filme",
+    "preco":25.78
+}
+###############
+
+
+// requisições usuarios
+
+PUT  http://localhost:4000/usuarios/goku HTTP/1.1
+
+##############################
+
+
+DELETE  http://localhost:4000/usuarios/3 HTTP/1.1
+
+#######################
+
+GET http://localhost:4000/usuarios?nome=thiago HTTP/1.1
+
+##########################
+
+
+POST  /usuarios HTTP/1.1
+Host: localhost:4000
+Content-Type: application/json
+
+{
+    "id":0,
+    "nome":"fillipe",
+    "email":"fillipe@ifb",
+    "senha":"0"
+}

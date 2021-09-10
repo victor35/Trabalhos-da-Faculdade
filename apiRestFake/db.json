@@ -1,0 +1,24 @@
+{
+	"usuarios": [{
+
+			"id": 1,
+			"usuario": "victor14souza@gmail.com",
+			"personagen": "Chinta"
+		},
+
+		{
+
+			"id": 2,
+			"usuario": "wander740@gmail.com",
+			"personagen": "ryu"
+		},
+
+		{
+
+			"id": 3,
+			"usuario": "anjos100@gmail.com",
+			"personagen": "ryu"
+		}
+	]
+
+}
