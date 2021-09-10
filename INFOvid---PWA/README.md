@@ -5,7 +5,7 @@
 INFOvid é uma aplicação que consome uma API REST FAKE para exibir dados sobre a pandemia do novo coronavírus.
 
 # Layout
-![Tela 1]()
+![Tela 1](https://github.com/victor35/Trabalhos-da-Faculdade/blob/main/assets/img-infovid.png)
 
 # Tecnologias
 - React
@@ -16,7 +16,7 @@ INFOvid é uma aplicação que consome uma API REST FAKE para exibir dados sobre
 ```bash
 
 # clonar repositório
-git clone 
+git clone https://github.com/victor35/Trabalhos-da-Faculdade.git
 
 # entrar na pasta do projeto
 cd Trabalhos-da-Faculdade/INFOvid---PWA
