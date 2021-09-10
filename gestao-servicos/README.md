@@ -17,10 +17,10 @@ Gestão Serviços é uma aplicação de um site estático feito através dos dia
 ```bash
 
 # clonar repositório
-git clone https://github.com/victor35/gestao-servicos.git
+git clone https://github.com/victor35/Trabalhos-da-Faculdade.git
 
 # entrar na pasta do projeto
-cd Trabalhos-da-Faculdade/INFOvid---PWA
+cd Trabalhos-da-Faculdade/gestao-servicos
 
 # baixar dependências via npm
 npm i
@@ -35,3 +35,4 @@ yarn install
 yarn start
 
 ```
+
